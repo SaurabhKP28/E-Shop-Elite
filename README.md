@@ -40,13 +40,13 @@ Note: The payment page is created only for demo purpose and its not fully integr
 - MySql
 
 ### ================ Software And Tools Required ================
-- : Git [https://www.youtube.com/watch?v=gv7VPQ4LZ7g]
-- : Java JDK 8+ [https://www.youtube.com/watch?v=O9PWH9SeTTE]
-- : Eclipse EE (Enterprise Edition) [https://www.youtube.com/watch?v=8aDsEV7txXE]
-- : Apache Maven [https://www.youtube.com/watch?v=jd2zx3dLjuw]
-- : Tomcat v8.0+ [https://youtu.be/mLFPodZO8Iw?t=903]
-- : MySQL Server [https://www.youtube.com/watch?v=Ydh5jYA6Frs]
-- : MySQL Workbench [https://www.youtube.com/watch?v=t79oCeTXHwg]
+- : Git 
+- : Java JDK 8+ 
+- : Eclipse EE (Enterprise Edition) 
+- : Apache Maven 
+- : Tomcat v8.0+
+- : MySQL Server 
+- : MySQL Workbench 
 
 ### ================= Dummy Database Initialization =================
 STEP 1: Open MySQL Command Prompt or MySQL Workbench
@@ -74,7 +74,7 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/shopping-cart.git```> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/SaurabhKP28/shopping-cart.git```> Select master Branch > Next > Next > Finish.
 
 Step 3: Go inside ```Java Resources > src > application.properties``` and update the values as below:
 - a) Update value for db.username and db.password according to your installed mysql credentials.
@@ -95,9 +95,9 @@ Step 7: Tomcat Configurations:
 		<p align='center'>or</p>
 	- You can directly goto server tab, select the tomcat server and use the debug or run button to start the previously ran project
 
-Step 8: Check Running The Site At  [http://localhost:8080/shopping-cart/](http://localhost:8080/shopping-cart/)
+Step 8: Check Running The Site At  [http://localhost:9090/shopping-cart/](http://localhost:9090/shopping-cart/)
 
-Step 9:  [To Change the Port, if getting error like 'port already in use'] Open The Server Tab > Double Click On Tomcat Server > Ports > Change The Port Number For Http/1.1 To 8083 > Close And Save. Now Start and you can access the project on [http://localhost:8083/shopping-cart/](http://localhost:8083/shopping-cart/)
+Step 9:  [To Change the Port, if getting error like 'port already in use'] Open The Server Tab > Double Click On Tomcat Server > Ports > Change The Port Number For Http/1.1 To 9090 > Close And Save. Now Start and you can access the project on [http://localhost:9090/shopping-cart/](http://localhost:9090/shopping-cart/)
 
 Step 10: Default Username And Password For Admin Is "admin@gmail.com" And "admin"
 
@@ -113,9 +113,9 @@ Note:- This is a Sample Project for learning purpose, we have not much considere
 
 #### Some Screenshots for the project:
 - Home Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/6161fb90-ac83-445d-9fb2-56681f6a52b4)
+![image](https://github.com/SaurabhKP28/shopping-cart/assets/34605595/6161fb90-ac83-445d-9fb2-56681f6a52b4)
 - Login Page
-![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/c5451416-a669-4d76-ad84-9b8ea26bf6b4)
+![image](https://github.com/SaurabhKP28/shopping-cart/assets/34605595/c5451416-a669-4d76-ad84-9b8ea26bf6b4)
 - Register Page
 ![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/19f06ec9-70aa-4700-8846-a2e6514d88c2)
 - Category Wise Product Filter
@@ -153,6 +153,6 @@ Note:- This is a Sample Project for learning purpose, we have not much considere
 
 <bold>Thanks a lot,</bold><br/>
                                                                                                         Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
+                                                                                                         <b>Saurabh Kumar Pandey</b>
 
 
