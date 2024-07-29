@@ -41,7 +41,7 @@ Note: The payment page is created only for demo purpose and its not fully integr
 - : Java JDK 8+ 
 - : Eclipse EE (Enterprise Edition) 
 - : Apache Maven 
-- : Tomcat v8.0+
+- : Tomcat v9.0+
 - : MySQL Server 
 - : MySQL Workbench 
 
